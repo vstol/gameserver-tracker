@@ -1,0 +1,94 @@
+body
+{
+	//background-image: url(http://desktop.freewallpaper4.me/view/original/2394/dark-wood-flooring.jpg);
+	background-image: url(grey_background.jpg);
+}
+
+table
+{
+	background-color: transparent !important;
+	
+}
+td
+{
+	background-color: transparent !important;
+	color: white !important;
+}
+
+.colorcode_0 { font-weight: bold; color: #000000; /*background-color: red;    opacity:0.8; */        }
+.colorcode_1 { font-weight: bold; color: #DA0120;              }
+.colorcode_2 { font-weight: bold; color: #00B906;              }
+.colorcode_3 { font-weight: bold; color: #E8FF19;              }
+.colorcode_4 { font-weight: bold; color: #170BDB;              }
+.colorcode_5 { font-weight: bold; color: #23C2C6;              }
+.colorcode_6 { font-weight: bold; color: #E201DB;              }
+.colorcode_7 { font-weight: bold; color: #FFFFFF;              }
+.colorcode_8 { font-weight: bold; color: #0AFF95;              }
+.colorcode_9 { font-weight: bold; color: #757575;              }
+
+
+.cvar-mapname
+{
+	color: white;
+}
+
+#content td
+{
+	//vertical-align: top;
+}
+
+#server-hostname p { color: red; text-align: center; }
+
+#server-map { }
+
+#server-info  tr:first-child{  color: red !important;}
+
+#server-players {vertical-align: top; }
+
+#server-settings { vertical-align: top;}
+
+/* this is from table sorter theme*/
+/* tables */
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin: 5px;
+	font-size: 10pt;
+	width: 400px;
+	text-align: left;
+	
+	border-collapse: collapse;
+}
+table.tablesorter td{
+	padding: 4px;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #d40;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 10px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px !important;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #ccc;
+}
