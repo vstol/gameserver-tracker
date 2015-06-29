@@ -7,6 +7,11 @@
 		
 		<title>Server Overview</title>
 	
+	<?php
+		if (defined("BASE_URL"))
+			echo "<base href=\"" . BASE_URL . "\">"
+	?>
+	
 		<link href="/favicon.ico" type="image/ico" rel="shortcut icon">
 		<link href="/favicon.ico" type="image/ico" rel="icon">
 	
