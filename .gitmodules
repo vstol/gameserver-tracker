@@ -1,0 +1,3 @@
+[submodule "public_html/Predis"]
+	path = public_html/Predis
+	url = https://github.com/nrk/predis
